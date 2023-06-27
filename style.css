@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+   background: linear-gradient(45deg, #0D324D,#7F5A83);
+   padding: 10px;
+   background-size: 300% 300%;
+   animation: colors 15s ease infinite;
+   width: 100%;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+
+    }
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-navbar{
+    
+    background-color: rgb(34, 23, 23);
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    position: sticky;
+    width: 70%;
+    
+}
+
+.main-navbar ul{
+    list-style-type: none;
+}
+
+.main-navbar li{
+    padding: 5px;
+    display: inline-block;
+    text-align: right; 
+    font-size: 1rem;   
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container-apr{
+    padding: 5%;
+}
+
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    display: flex;
+
+}
+
+.apresentation h2{
+    font-weight: bolder;
+    margin-right: 1px;
+    font-size: 7rem;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .apresentation h2 {
+      font-size: 4rem;
+    }
+
+}
+.container-apr h4{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 15%;
+    width: auto;
+}
+
+
+
+
+
+    
+
+
+
+
